@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Fade } from "react-reveal";
 import jpm from "../../images/jp.jpg";
+import fiverr from "../../images/fiverr.png";
+import slice from "../../images/slicepay.jpg";
+import coffee from "../../images/coffee.avif";
 
 function ProjectCard(props) {
   return <Col md={3}>
@@ -95,6 +98,7 @@ export default function Projects() {
                   name={'Fiverr'}
                   description={'Freelance for multiple clients across the globe'}
                   language={'Procreate, After Effects & '}
+                  image={fiverr}
                   delay={300}
               />
               <ProjectCard
@@ -102,6 +106,7 @@ export default function Projects() {
                   name={'SlicePay'}
                   description={'Worked as an iOS app developer and created front-end solutions for the team'}
                   language={'Swift, iOS, X-code'}
+                  image={slice}
                   delay={500}
               />
               <ProjectCard
@@ -109,6 +114,7 @@ export default function Projects() {
                   name={'Coffee Lab'}
                   description={'A personal project to help me make my morning coffee :)  '}
                   language={'Swift, iOS, X-code'}
+                  image={coffee}
                   delay={700}
               />
           </Row>

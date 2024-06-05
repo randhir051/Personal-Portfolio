@@ -44,7 +44,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              MD MAFUJUL HASAN
+              Randhir
             </h5>
           </div>
         </Navbar.Brand>
@@ -66,18 +66,18 @@ export default function MyNav() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/projectspage"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
+            {/*<Nav.Item>*/}
+            {/*  <Nav.Link*/}
+            {/*    as={Link}*/}
+            {/*    to="/projectspage"*/}
+            {/*    onClick={() => updateExpanded(false)}*/}
+            {/*  >*/}
+            {/*    <AiOutlineFundProjectionScreen*/}
+            {/*      style={{ marginBottom: "2px" }}*/}
+            {/*    />{" "}*/}
+            {/*    Projects*/}
+            {/*  </Nav.Link>*/}
+            {/*</Nav.Item>*/}
 
             <Nav.Item>
               <Nav.Link

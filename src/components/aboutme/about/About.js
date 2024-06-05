@@ -13,40 +13,38 @@ const About = () => {
           <Col md={5}>
             {/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
 
-            <Slide left>
+            <Fade>
               <lottie-player
-                src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
+                src="https://lottie.host/fbe547d2-4d40-436c-964b-9b39de958bfa/WV1ZZApcfr.json"
                 background="transparent"
                 speed="1"
                 style={{ width: "100%", height: "90%" }}
                 loop
                 autoplay
               ></lottie-player>
-            </Slide>
+            </Fade>
           </Col>
 
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
-                My name is <b className="purple">MD Mafujul Hasan </b> 
-                  and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Sonargaon University </b>
-                      in Dhaka, Bangladesh.
+                My name is <b className="purple">Randhir</b>,
+                I live in India and I love creating things.
                 <br />
                 <br />
-                        I am proficient in various programming languages such as &nbsp;
+                        I am proficient in languages to implement projects, such as
                   <b className="purple">
                     {" "}
-                    C, C++, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
+                    JavaScript(React/Node), Java, Swift and DB tools.{" "}
                   </b>
                 <br />
                 <br />
-                I also have experience working with frameworks and libraries such as &nbsp;
-
+                I also take freelance illustration/animations projects via &nbsp;
+                <a href={'https://www.fiverr.com/randhir051?up_rollout=true'}>
                   <b className="purple">
-                    {" "}
-                    NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
+                    Fiverr{" "}
                   </b>
+                </a>
                 <br />
                 <br />
                 Whenever possible, I also apply my passion for developing
@@ -56,8 +54,7 @@ const About = () => {
                     Modern Javascript Library and Frameworks.
                   </b>
                 <br />
-                <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
+                <br />In my free time, I enjoy playing the <b className="purple">Sitar, Painting or Sculpting </b>
               </p>
             </Fade>
           </Col>

@@ -32,14 +32,14 @@ const About = () => {
                 I live in India and I love creating things.
                 <br />
                 <br />
-                        I am proficient in languages to implement projects, such as
+                        I am proficient in programming languages such as
                   <b className="purple">
                     {" "}
                     JavaScript(React/Node), Java, Swift and DB tools.{" "}
                   </b>
                 <br />
                 <br />
-                I also work on freelance illustration/animations projects via &nbsp;
+                I work on freelance illustration/animations projects via &nbsp;
                 <a href={'https://www.fiverr.com/randhir051?up_rollout=true'}>
                   <b className="purple">
                     Fiverr{" "}

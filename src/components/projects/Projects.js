@@ -4,7 +4,7 @@ import { Fade } from "react-reveal";
 import jpm from "../../images/jp.jpg";
 import fiverr from "../../images/fiverr.png";
 import slice from "../../images/slicepay.jpg";
-import coffee from "../../images/coffee.avif";
+import coffee from "../../images/coffee.jpg";
 
 function ProjectCard(props) {
   return <Col md={3}>

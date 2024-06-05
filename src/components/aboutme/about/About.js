@@ -39,7 +39,7 @@ const About = () => {
                   </b>
                 <br />
                 <br />
-                I also take freelance illustration/animations projects via &nbsp;
+                I also work on freelance illustration/animations projects via &nbsp;
                 <a href={'https://www.fiverr.com/randhir051?up_rollout=true'}>
                   <b className="purple">
                     Fiverr{" "}
@@ -47,12 +47,7 @@ const About = () => {
                 </a>
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing
-                products with &nbsp;
-                  <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks.
-                  </b>
+                My aim in life is to leave a <b className="purple">positive impact</b> on the world.
                 <br />
                 <br />In my free time, I enjoy playing the <b className="purple">Sitar, Painting or Sculpting </b>
               </p>

@@ -94,7 +94,7 @@ html {
 }
 
 .navbarmain{
-  margin-left: 210px;
+  margin-left: 700px;
 }
 .navbar-toggler span {
   display: block !important;
@@ -142,12 +142,12 @@ html {
 }
 @media (max-width: 1400px) {
   .navbarmain{
-    margin-left: 200px;
+    margin-left: 440px;
   }
 }
 @media (max-width: 1050px) {
   .navbarmain{
-    margin-left: 50px;
+    margin-left: 200px;
   }
 }
 
@@ -1224,6 +1224,7 @@ html {
 .singleProject {
   box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
   width: 100%;
+  margin: 1rem auto;
   height: 350px;
   border-radius: 10px;
   display: flex;

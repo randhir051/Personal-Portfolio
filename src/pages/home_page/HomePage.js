@@ -76,7 +76,7 @@ export default function Home() {
               <Col md={6} style={{ paddingBottom: 20, marginTop: 10 }}>
                   <div className="img-home-main" style={{alignItems: "center", verticalAlign: 'middle', height: '100%'}} >
                               <img
-                                  src="./me.jpeg"
+                                  src="./me.jpg"
                                   alt="Randhir holding a sitar"
                                   className="img-fluid"
                                   height={'100%'}

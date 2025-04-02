@@ -6,19 +6,19 @@ const SimpleImageCollage = () => {
 
     const photos = [
         {
-            src: "./workshop_albela.jpeg",
+            src: "./workshop_albela.jpg",
             width: 4,
             height: 4.2,
             title: "Workshop at Albela house"
         },
         {
-            src: "./AlbelaHouseMural.jpeg",
+            src: "./AlbelaHouseMural.jpg",
             width: 6,
             height: 3.5,
             title: "A wall art at Albela House"
         },
         {
-            src: "./AlbelaHousePerformance.jpeg",
+            src: "./AlbelaHousePerformance.jpg",
             width: 5,
             height: 4,
             title: "Draupadi: a collaborative act illustrating the life of Draupadi with a twist."
@@ -66,7 +66,7 @@ const SimpleImageCollage = () => {
             title: "How the world churns"
         },
         {
-            src: "./Coffee.jpeg",
+            src: "./Coffee.jpg",
             width: 4,
             height: 5.5,
             title: "Puck with a cup earring"
@@ -90,16 +90,16 @@ const SimpleImageCollage = () => {
             title: "Illustration of celestial masculine and feminine"
         },
         {
-            src: "./tabla.jpeg",
+            src: "./tabla.jpg",
             width: 4,
             height: 3.5,
-            title: "Illustration of celestial masculine and feminine"
+            title: "Clay pieces: Tabla and Tanpura"
         },
         {
             src: "./leafy.jpg",
             width: 4,
             height: 3,
-            title: "Illustration of celestial masculine and feminine"
+            title: "Clay miniature of a feminine leaf"
         },
     ];
 

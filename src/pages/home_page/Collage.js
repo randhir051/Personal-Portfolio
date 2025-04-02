@@ -87,7 +87,7 @@ const SimpleImageCollage = () => {
             src: "./coffee_set.jpg",
             width: 4,
             height: 4,
-            title: "Illustration of celestial masculine and feminine"
+            title: "Wheel work to make a coffee pot set "
         },
         {
             src: "./tabla.jpg",

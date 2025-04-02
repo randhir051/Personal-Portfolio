@@ -60,16 +60,6 @@ export default function Home() {
                                       <AiFillInstagram/>
                                   </a>
                               </li>
-                              <li className="socialicons">
-                                  <a
-                                      href="mailto:randhirsingh051@gmail.com/"
-                                      target="_blank"
-                                      rel="noreferrer"
-                                      className="iconcolour homesocialicons"
-                                  >
-                                      <FaGoogle/>
-                                  </a>
-                              </li>
                           </ul>
                       </div>
                   </Container>

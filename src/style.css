@@ -299,15 +299,15 @@ html {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 3rem 0rem 2rem !important;
+  margin-left: auto;
   color: #fbd9ad;
-  text-align: center;
+  text-align: left;
   z-index: 6;
 }
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 45px !important;
 }
 
 .heading-name {
@@ -335,9 +335,8 @@ html {
   font-size: 1.8em;
 }
 .sociallink-home{
-  padding-left: 40px;
-  text-align: center;
-  padding-top: 35px;
+  text-align: left;
+  padding-top: 15px;
 }
 @media (max-width: 767px) {
   .Typewriter__wrapper {
@@ -350,10 +349,10 @@ html {
   }
   .heading {
     font-size: 2em !important;
-    padding-left: 16px !important;
   }
   .home-content {
-    padding: 6rem 0 2rem !important;
+    padding: 3rem 1rem 2rem !important;
+    text-align: center;
   }
   .heading-name {
     font-size: 3.0em !important;
@@ -363,9 +362,8 @@ html {
     padding-left: 16px;
   }
   .sociallink-home{
-    padding-left: 10px;
     text-align: center;
-    padding-top: 55px;
+    padding-top: 15px;
   }
   .socialicons{
     padding-top: 10px;
@@ -990,7 +988,7 @@ html {
 
 .homeaboutsociallinks {
   justify-content: center !important;
-  padding-top: 15px !important;
+  padding-top: 5px !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;

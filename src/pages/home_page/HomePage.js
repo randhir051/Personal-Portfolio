@@ -12,17 +12,18 @@ export default function Home() {
     <section className="home-section">
       <div className='align-middle'>
         {/*<Particle />*/}
-          <Row style={{marginBottom: '5%', alignItems: 'center'}}>
-              <Col md={6} style={{paddingLeft: '5%'}}>
+          <Row style={{marginBottom: '5%', alignItems: 'center', marginTop: '5%'}}>
+              <Col md={1} style={{width: '5%'}}></Col>
+              <Col md={6}>
                   <Container className="home-content">
                       <p
-                          style={{paddingBottom: 15, alignItems: "center"}}
+                          style={{paddingBottom: 15}}
                           className="heading"
                       >
                           Hi, my name is Randhir and I make stuff!
                       </p>
                       <h5
-                          style={{paddingBottom: 15, alignItems: "center"}}
+                          style={{paddingBottom: 15}}
                       >
                           A creator of solutions and experiences, Randhir is a co-founding member at Climate Diaries with a rich multi-disciplinary background.
                       </h5>
@@ -73,7 +74,7 @@ export default function Home() {
                       </div>
                   </Container>
               </Col>
-              <Col md={6} style={{ paddingBottom: 20, marginTop: 10 }}>
+              <Col md={5} style={{ paddingBottom: 20, marginTop: 10 }}>
                   <div className="img-home-main" style={{alignItems: "center", verticalAlign: 'middle', height: '100%'}} >
                               <img
                                   src="./me.jpg"

@@ -1,106 +1,95 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../../Particle";
-import Typing from "./Typing";
-import Tilt from "react-parallax-tilt";
+import {Container, Row, Col, Fade} from "react-bootstrap";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
-import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaGoogle } from "react-icons/fa";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
+import Collage from "./Collage";
 
 export default function Home() {
   return (
     <section className="home-section">
-      <Container fluid id="home">
-        <Particle />
-        <Container className="home-content">
-          <Row>
-            <Col md={8} className="home-header">
-              <h1
-                style={{ paddingBottom: 15, fontSize: "12px" }}
-                className="heading"
-              >
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
+      <div className='align-middle'>
+        {/*<Particle />*/}
+          <Row style={{marginBottom: '5%', alignItems: 'center'}}>
+              <Col md={6} style={{paddingLeft: '5%'}}>
+                  <Container className="home-content">
+                      <p
+                          style={{paddingBottom: 15, alignItems: "center"}}
+                          className="heading"
+                      >
+                          Hi, my name is Randhir and I make stuff!
+                      </p>
+                      <h5
+                          style={{paddingBottom: 15, alignItems: "center"}}
+                      >
+                          A creator of solutions and experiences, Randhir is a co-founding member at Climate Diaries with a rich multi-disciplinary background.
+                      </h5>
 
-              <h1 className="heading-name">
-                I'm
-                <strong className="main-name"> Randhir </strong>
-              </h1>
-
-              <div className="typing-homeclass">
-                <Typing />
-              </div>
-              <div className="sociallink-home">
-                <ul className="homeaboutsociallinks">
-                  <li className="socialicons">
-                    <a
-                      href="https://github.com/randhir051"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour  homesocialicons"
-                    >
-                      <AiFillGithub />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="https://www.linkedin.com/in/randhir051/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour  homesocialicons"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="https://www.instagram.com/randhir.art/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <AiFillInstagram />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="mailto:randhirsingh051@gmail.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <FaGoogle />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </Col>
-            <Col md={4} style={{ paddingBottom: 20 }}>
-              <div className="img-home-main">
-                <Tilt>
-                  <Fade cascade>
-                    <img
-                      src="./profile.png"
-                      alt="home pic"
-                      className="img-fluid"
-                    />
-                  </Fade>
-                </Tilt>
-              </div>
-            </Col>
+                      <div className="sociallink-home">
+                          <ul className="homeaboutsociallinks">
+                              <li className="socialicons">
+                                  <a
+                                      href="https://github.com/randhir051"
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="iconcolour  homesocialicons"
+                                  >
+                                      <AiFillGithub/>
+                                  </a>
+                              </li>
+                              <li className="socialicons">
+                                  <a
+                                      href="https://www.linkedin.com/in/randhir051/"
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="iconcolour  homesocialicons"
+                                  >
+                                      <FaLinkedinIn/>
+                                  </a>
+                              </li>
+                              <li className="socialicons">
+                                  <a
+                                      href="https://www.instagram.com/randhir.art/"
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="iconcolour homesocialicons"
+                                  >
+                                      <AiFillInstagram/>
+                                  </a>
+                              </li>
+                              <li className="socialicons">
+                                  <a
+                                      href="mailto:randhirsingh051@gmail.com/"
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="iconcolour homesocialicons"
+                                  >
+                                      <FaGoogle/>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </Container>
+              </Col>
+              <Col md={6} style={{ paddingBottom: 20, marginTop: 10 }}>
+                  <div className="img-home-main" style={{alignItems: "center", verticalAlign: 'middle', height: '100%'}} >
+                              <img
+                                  src="./me.jpeg"
+                                  alt="Randhir holding a sitar"
+                                  className="img-fluid"
+                                  height={'100%'}
+                              />
+                  </div>
+              </Col>
           </Row>
-        </Container>
-      </Container>
-      <AboutmeContainer />
-      {/*<Certification />*/}
-      <Projects />
-      <Contactus />
+      </div>
+        <Collage />
+        {/*<AboutmeContainer />*/}
+        {/*<Certification />*/}
+        <Projects/>
+        <Contactus/>
     </section>
   );
 }

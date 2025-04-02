@@ -162,11 +162,14 @@ html {
   }
   .img-fluid {
     width: 230px !important;
+    height: 220px !important;
   }
   .img-home-main{
     width: 100% !important;
+    height: 100% !important;
     text-align: center !important;
-    padding-top: 40px !important;
+    align-content: center;
+    justify-content: center;
   }
   .navbarmain{
     margin-left: 0px;
@@ -177,6 +180,7 @@ html {
 }
 .img-fluid {
   width: 384px;
+  height: 384px;
 }
 .logo {
   height: 1.8em !important;
@@ -287,6 +291,8 @@ html {
   background-image: var(--image-gradient), url(./images/h3.jpg);
   background-position: top center;
   background-size: cover !important;
+  align-content: center;
+  text-align: center;
   background-repeat: no-repeat;
   padding-bottom: 22px !important;
   padding-top: 30px !important;
@@ -295,12 +301,12 @@ html {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: #fbd9ad;
-  text-align: left;
+  text-align: center;
   z-index: 6;
 }
 
 .heading {
-  font-size: 3.4em !important;
+  font-size: 2.4em !important;
   padding-left: 45px !important;
 }
 
@@ -330,7 +336,7 @@ html {
 }
 .sociallink-home{
   padding-left: 40px;
-  text-align: left;
+  text-align: center;
   padding-top: 35px;
 }
 @media (max-width: 767px) {
@@ -343,7 +349,7 @@ html {
     display: none !important;
   }
   .heading {
-    font-size: 3em !important;
+    font-size: 2em !important;
     padding-left: 16px !important;
   }
   .home-content {
@@ -358,7 +364,7 @@ html {
   }
   .sociallink-home{
     padding-left: 10px;
-    text-align: left;
+    text-align: center;
     padding-top: 55px;
   }
   .socialicons{
@@ -494,7 +500,8 @@ html {
   z-index: 7;
 }
 .aboutme-heading{
-  font-size: 4.6em;
+  font-size: 2.6em;
+  text-align: left;
   color:#fbd9ad;
 }
 @media (max-width: 767px) {
@@ -509,7 +516,8 @@ html {
     padding-top: 0px !important;
   }
   .aboutme-heading{
-    font-size: 3.6em;
+    font-size: 2.0em;
+    text-align: center;
   }
 }
 
@@ -1481,8 +1489,8 @@ html {
   background-color: #fbd9ad;
   color: #742586;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;

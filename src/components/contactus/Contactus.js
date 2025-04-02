@@ -76,33 +76,6 @@ export default function Contactus() {
                       </div>
                       <p style={{ color: "#fbd9ad" }}>+91-8123996082</p>
                     </a>
-                    <a
-                      href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
-                      className="personal-details"
-                    >
-                      <div className="personal-details">
-                        <div className="detailsIcon">
-                          <HiOutlineLocationMarker />
-                        </div>
-                        <p style={{ color: "#fbd9ad" }}>
-                          Bangalore, India
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                </Col>
-                <Col md={7}>
-                  <div className="contact-map">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15552.865773497264!2d77.68222125699255!3d12.957997397696152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13b4551d0957%3A0x597894d77e1e4919!2sMarathahalli%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1717580357823!5m2!1sen!2sin"
-                      frameBorder="0"
-                      allowFullScreen=""
-                      aria-hidden="false"
-                      title="Contact Me"
-                      tabIndex="0"
-                      loading="lazy"
-                      className=""
-                    ></iframe>
                   </div>
                 </Col>
               </Row>
